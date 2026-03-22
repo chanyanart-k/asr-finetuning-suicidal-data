@@ -1,0 +1,20 @@
+[project]
+name = "asr-finetuning-suicidal-data"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "audio-recorder-streamlit==0.0.10",
+    "google-api-python-client==2.193.0",
+    "google-auth==2.49.1",
+    "librosa>=0.11.0",
+    "nemo-toolkit[asr]==2.0.0",
+    "numpy==1.26.4",
+    "pydub==0.25.1",
+    "pythainlp==5.1.2",
+    "python-dotenv===1.2.2",
+    "requests>=2.32",
+    "soundfile==0.12.1",
+    "streamlit>=1.29",
+]
