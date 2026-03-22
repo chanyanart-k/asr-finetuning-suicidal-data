@@ -329,7 +329,7 @@ The fine-tuned models are built on top of:
 - **Typhoon-ASR-Realtime** — SCB10X Thai ASR model ([paper](https://arxiv.org/abs/2601.13044))
 - **Distil-Whisper** — Robust Knowledge Distillation via Large-Scale Pseudo Labelling ([paper](https://arxiv.org/abs/2311.00430))
 - **FastConformer** — Fast Conformer with Linearly Scalable Attention for Efficient Speech Recognition ([paper](https://arxiv.org/abs/2305.05084))
-- **pyannote/speaker-diarization-3.1** — Voice Activity Detection ([Model]https://huggingface.co/pyannote/speaker-diarization-3.1)
+- **pyannote/speaker-diarization-3.1** — Voice Activity Detection ([Model](https://huggingface.co/pyannote/speaker-diarization-3.1))
 
 Compute resources provided by the **LANTA HPC** supercomputing cluster.
 
