@@ -215,14 +215,19 @@ Evaluated on the **5,000-file test set (14 hours):**
 ```
 asr-finetuning-suicidal-data/
 ├── app.py                  # Streamlit demo application (upload, record, benchmark)
-├── main.py                 # Entry point / fine-tuning orchestration
-├── processing_utils.py     # Audio preprocessing utilities (VAD, chunking, resampling)
-├── run_typhoon_asr.py      # Typhoon ASR model loader and inference runner
+├── config.py               # All secrets/constants in one place
+├── asr/
+│   ├── __init__.py
+│   ├── model.py            # Typhoon ASR model loader from gdrive and inference runner
+│   ├── audio.py            # Audio preprocessing utilities (resampling)
+│   └── text.py             # Post-processing output
 ├── requirements.txt        # Python dependencies
 ├── pyproject.toml          # Project configuration
 ├── uv.lock                 # Dependency lock file (uv)
+├── .gitignore              # Python version pin
 ├── .python-version         # Python version pin
-└── .gitignore
+└── .streamlit
+     └── secrets.toml       # Storing Secrets for running model in local
 ```
 
 ---
@@ -259,7 +264,11 @@ uv sync
 ## Usage
 
 ### Running the Demo App
+```bash
 
+```
+
+### Running your OWN MODEL in Streamlit App (connect to gdrive)
 ```bash
 streamlit run app.py
 ```
