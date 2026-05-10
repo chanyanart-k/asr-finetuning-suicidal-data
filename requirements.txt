@@ -10,4 +10,7 @@ python-dotenv===1.2.2
 requests>=2.32
 streamlit>=1.29
 soundfile==0.12.1
+torch==2.2.2
+torchvision==0.17.2
+torchaudio==2.2.2
 nemo_toolkit[asr]==2.0.0
