@@ -265,7 +265,7 @@ uv sync
 
 ### Running the Demo App
 ```bash
-
+https://asr-fine-tuned-th-suicidal-data-demo.streamlit.app/
 ```
 
 ### Running your OWN MODEL in Streamlit App (connect to gdrive)
