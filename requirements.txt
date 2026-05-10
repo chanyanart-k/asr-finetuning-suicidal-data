@@ -4,6 +4,7 @@ google-api-python-client==2.193.0
 librosa>=0.11.0
 numpy==1.26.4
 pydub==0.25.1
+pyarrow==20.0.0
 pythainlp==5.1.2
 python-dotenv===1.2.2
 requests>=2.32
