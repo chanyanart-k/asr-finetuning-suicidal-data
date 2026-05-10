@@ -11,3 +11,5 @@ requests>=2.32
 streamlit>=1.29
 soundfile==0.12.1
 nemo_toolkit[asr]==2.0.0
+torchvision
+torchaudio
